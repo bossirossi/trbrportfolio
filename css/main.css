@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+
+/* universal reset */
+*,
+*:before,
+*:after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Put your styles below */
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav{
+    display:flex;
+    font-size: 20px;
+    scroll-padding-top:20px 0;
+    text-align:center;
+    padding:16px;
+    justify-content:flex-end;
+    margin-bottom:60px;
+  
+}
+
+
+nav ul{
+    display:flex;
+    justify-content:baseline;
+    gap:22rem;
+    width:80%;
+   
+
+}
+nav ul li {
+    display:inline;
+    list-style-type: none;
+    margin-top:30px;
+    
+}
+nav ul li a {
+    color:#716962;
+    text-decoration:none;
+   
+}
+
+
+.Icons{
+    position:fixed;
+    top:30px;
+    left:20px;
+}
+
+
+
+nav figure img{
+    display:flex;
+    width:80px;
+}
+
+
+nav div a img{
+    position:fixed;
+    display:flex;
+    width:100px;
+    padding-top:0;
+    top:30px;
+    right:20px;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#AboutContainer{
+    max-width:1200px;
+}
+
+#HomeIntroContainer{
+    max-width:1200px;
+
+}
+
+#PortfolioContainer{
+    max-width: 1200;
+}
+
+h1, h2, h3, h4 {
+    margin:10px
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+h2{
+    font-size: 40px;
+    
+}
+
+h3{
+    font-size: 32px;
+}
+
+h4{
+    font-size: 24px;
+
+}
+
+h5{
+    font-size:15px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.Home_Photos{
+    display:flex;
+    flex-direction:row;
+    gap:7.5rem;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
+
+
+    max-width:1200px;
+    margin:0 auto;
+
+}
+
+.Home_Photos div figure img{
+    height:500px;
+ 
+}
+
+/* ABOUT Section Start */
+
+.Hello{
+    display:flex;
+   
+    align-content:first baseline;
+}
+
+.Rossi_Intro{
+    display:flex;
+    flex-direction:row;
+  
+    margin:0 auto;
+    margin-bottom: 30px;
+    max-width: 1400px;
+    align-items: center;
+
+}
+
+.Rossi_Intro p{
+    background-color:#716962;
+    color: white;
+    padding:2rem;
+}
+
+
+.WhoIsRossi{
+    display:flex;
+    flex-direction:row;
+    gap:6rem;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
+    margin:0 auto;
+
+
+}
+
+.WhoIsRossi div figure img{
+    height:400px;
+  
+}
+
+
+#SkillSection ul{
+    list-style-type: none;
+   
+}
+
+#Digital{
+    display:flex;
+    flex-direction: column;
+    background-color:#716962;
+    color:white;
+    padding:2rem;
+    margin:0 auto;
+    margin-bottom: 10px;
+    max-width: 1200px;
+   
+
+}
+
+
+#AppliedArts{
+    display:flex;
+    flex-direction: column;
+    background-color:#716962;
+    color:white;
+    padding:2rem;
+    margin:0 auto;
+    margin-bottom: 10px;
+    max-width: 1200px;
+   
+}
+
+#Coding{
+    display:flex;
+    flex-direction: column;
+    background-color:#716962;
+    color:white;
+    padding:2rem;
+    margin:0 auto;
+    margin-bottom: 10px;
+    max-width: 1200px;
+   
+}
+
+
+#WE ul li {
+    list-style-type: none;
+    font-size:15px;
+    color:blanchedalmond;
+   
+}
+
+#WorkExperienceArt{
+
+    display:flex;
+    flex-direction: column;
+    background-color:#716962;
+    color:white;
+    padding:2rem;
+    margin:0 auto;
+    margin-bottom: 10px;
+    max-width: 1200px;
+
+}
+
+#YogaAndMovement{
+
+    display:flex;
+    flex-direction: column;
+    background-color:#716962;
+    color:white;
+    padding:2rem;
+    margin:0 auto;
+    margin-bottom: 10px;
+    max-width: 1200px;
+
+}
+#YogaAndMovement ul li{
+    list-style-type: none;
+    font-size:15px;
+    color:blanchedalmond;
+}
+
+#EEX ul li{
+    list-style-type: none;
+    font-size:24px;
+    color:blanchedalmond;
+}
+
+.Education{
+    display:flex;
+    flex-direction: column;
+    background-color:#716962;
+    color:white;
+    padding:2rem;
+    margin:0 auto;
+    margin-bottom: 10px;
+    max-width: 1200px;
+
+}
+
+
+
+
+
+/* ABOUT Section End */
+
+.Gallery{
+    display:flex;
+    flex-direction:row;
+    gap:10rem;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
+
+
+    max-width:1200px;
+    margin:0 auto;
+  
+    margin-bottom:100px;
+
+}
+
+
+.Gallery div figure img{
+    width:300px;
+ 
+}
+
+
+#PortfolioHeadline{
+    margin-bottom:50px;
+}
+
+
+#SubNavigation{
+    list-style-type: none;
+    display: flex;
+    gap:6rem;
+    margin-bottom:50px;
+  
+    width:80%;
+
+}
+
+#SubNavigation li a{
+    Text-decoration:none;
+    font-size:20px;
+    color:#716962;
+    padding: 10px;
+    margin:auto;
+
+
+}
+
+#SubNavigation ul {
+    display:flex;
+    align-content:center;
+    justify-content:right;
+
+}
+
+footer{
+
+    font-size:10px;
+    width:100%;
+    background:#716962;
+    color:white;
+    text-align:center;
+    padding:20px;
+    display:flex;
+   
+    margin:0 auto;
+    margin-top: 10px;
+
+  
+   
+}
+
+.Footer_style{
+
+    justify-content:space-between;
+  
+    text-align:center;
+    padding:20px;
+    
+
+
+}
+.Footer_style div p{
+        font-size:10px;
+        
+}
+.Footer_style div a img{
+    width: 40px;
+
+}
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
